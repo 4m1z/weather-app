@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ../BE
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"  
+    networks:
+      - app-network
+    environment:
+      - GO_ENV=production
+    volumes:
+      - ../BE:/app  
+  
+  frontend:
+    build:
+      context: ../FE
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" 
+    networks:
+      - app-network
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ../FE:/app 
+
+networks:
+  app-network:
+    driver: bridge  
+
