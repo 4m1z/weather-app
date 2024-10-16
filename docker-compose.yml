@@ -11,8 +11,6 @@ services:
       - app-network
     environment:
       - GO_ENV=production
-    volumes:
-      - ../BE:/app  
   
   frontend:
     build:
@@ -24,8 +22,6 @@ services:
       - app-network
     environment:
       - NODE_ENV=production
-    volumes:
-      - ../FE:/app 
 
 networks:
   app-network:
