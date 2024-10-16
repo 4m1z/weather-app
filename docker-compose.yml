@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ../BE
+      context: ../kg-be
       dockerfile: Dockerfile
     ports:
       - "8080:8080"  
@@ -14,7 +14,7 @@ services:
   
   frontend:
     build:
-      context: ../FE
+      context: ../kg-fe
       dockerfile: Dockerfile
     ports:
       - "3000:3000" 
