@@ -30,8 +30,8 @@ infra/
    The directory structure should look like this:
 
    ```
-   kg-fe/
-   kg-be/
+   fe-kg/
+   be-kg/
    kg-infra/
    ```
 
