@@ -38,7 +38,7 @@ infra/
 2. **Navigate to the infra folder:**
 
    ```bash
-   cd infra/
+   cd kg-infra/
    ```
 
 3. **Build and run the services:**
