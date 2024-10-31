@@ -2,15 +2,11 @@
 
 ## Overview
 
-The **infra** repository manages the deployment process for the full-stack weather application (frontend and backend) using Docker Compose. This setup enables seamless orchestration of the frontend, backend, and external services.
+This repository contains a very simple app that i have written with golang and react 
+to get more familier with graphql. in this project i used gql on backend and apolo client 
+on the frontend side which you can find more information regarding them in their respective 
+folders(./frontend and ./backend).
 
-## Project Structure
-
-```
-infra/
-    └── docker-compose.yml
-    └── README.md
-```
 
 ## Deployment Instructions
 
@@ -19,26 +15,24 @@ infra/
 
 ### Step-by-Step Deployment
 
-1. **Clone the repositories:**
+1. **Clone the repo:**
 
    Clone the following repositories and place them in the same directory structure:
 
-   - **Frontend (fe)**: [https://github.com/Am1rArsalan/fe-kg](https://github.com/Am1rArsalan/fe-kg)
-   - **Backend (be)**: [https://github.com/Am1rArsalan/be-kg](https://github.com/Am1rArsalan/be-kg)
-   - **Infra**: [https://github.com/Am1rArsalan/kg-infra](https://github.com/Am1rArsalan/kg-infra)
+   - **Infra**: [https://github.com/Am1rArsalan/kg-infra](https://github.com/Am1rArsalan/weather-app)
 
    The directory structure should look like this:
 
    ```
-   fe-kg/
-   be-kg/
-   kg-infra/
+   frontend/
+   backend/
+   infra/
    ```
 
 2. **Navigate to the infra folder:**
 
    ```bash
-   cd kg-infra/
+   cd infra/
    ```
 
 3. **Build and run the services:**

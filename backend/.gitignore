@@ -1,0 +1,32 @@
+# Go binaries
+/bin/
+/obj/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+
+# Dependency directories
+vendor/
+
+# IDE or editor specific files
+.idea/
+*.vscode/
+*.swp
+
+# Environment variables
+.env
+.env.local
+
+# Docker files
+.dockerignore
+
+# Coverage files
+*.cov
+
+# Temporary files
+tmp/
+tmp/*
+
