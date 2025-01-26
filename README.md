@@ -18,7 +18,7 @@ folders(./frontend and ./backend).
 
    Clone the following repositories and place them in the same directory structure:
 
-   - **Infra**: [https://github.com/Am1rArsalan/kg-infra](https://github.com/Am1rArsalan/weather-app)
+   - https://github.com/4m1z/weather-app
 
    The directory structure should look like this:
 
