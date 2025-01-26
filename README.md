@@ -1,4 +1,3 @@
-# Infra Repository for weather app
 
 ## Overview
 
